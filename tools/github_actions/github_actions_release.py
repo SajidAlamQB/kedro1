@@ -4,7 +4,7 @@ import requests
 from pathlib import Path
 
 VERSION_MATCHSTR = r'\s*__version__\s*=\s*"(\d+\.\d+\.\d+)"'
-INIT_FILE_PATH = "kedro/kedro/__init__.py"
+INIT_FILE_PATH = "/kedro/__init__.py"
 
 
 def get_package_version():
